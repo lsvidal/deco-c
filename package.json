@@ -1,0 +1,19 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "Simple template for Typescript POCs using ts-node",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node-dev --respawn index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Typescript", "ts-node", "template"],
+  "author": "Leonardo Vidal",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.18",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
